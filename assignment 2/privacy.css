@@ -1,0 +1,178 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f4f2f0; 
+    color: #333; 
+}
+
+header {
+    background-color: #FFCDC6;
+    padding: 5px;
+    text-align: center;
+}
+
+.search-box {
+    position: relative;
+    display: inline-block;
+}
+
+.search-box input {
+    padding-left: 35px;
+    height: 15px;
+    width: 250px;
+}
+
+.search-box img {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+}
+
+.active {
+    font-size: x-large;
+    font-weight: bolder;
+    float: left;
+    color: #382110;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #382110;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    text-decoration: none;
+
+}
+
+nav ul li input {
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 40px;
+    max-width: 960px; 
+    margin: 20px auto; 
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.privacy-content {
+    margin-bottom: 20px;
+    background-color:#F4F1EA;
+}
+
+.privacy-content h1 {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.privacy-content p {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.back-button {
+    background-color: #FFCDC6; 
+    color: black;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.igs {
+    margin-top: -20px;
+    width: 1533px;
+    height: 30vh;
+    margin-left: -19px;
+}
+.imgs {
+    margin-top: 8px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+/* purveshpanchal.ce@silveroakuni.ac.in */
+.imges {
+    width: 29px;
+    height: 29px;
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+.images {
+    text-align: center;
+}
+
+footer {
+    background-color: #FFCDC6;
+    padding: 15px;
+    width: 180;
+    margin-top: 118px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.item {
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.item-1 {
+    text-align: center;
+    padding: 5px 0;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+#cont {
+    margin-right: 40rem;
+    margin-top: -15px;
+}
+
+footer h4 {
+    margin: 0;
+}
+
+.mains{
+    height: 55vh;
+}
+
+
+.back-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 8px 20px;
+    background-color: #f4b7b7;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
